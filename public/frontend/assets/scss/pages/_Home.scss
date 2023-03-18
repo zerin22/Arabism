@@ -1,0 +1,225 @@
+.home-about {
+    padding-top: 150px;
+    background: url(./../images/ab-bg.png) no-repeat center center/cover;
+
+    @media(max-width: 767px) {
+        padding-top: 30px;
+    }
+
+    .about-us-text {
+        height: 550px;
+        @media(max-width: 767px) {
+            height: 450px;
+        }
+
+        .description {
+            font-weight: 500;
+            font-size: 35px;
+            color: #371900;
+
+            @media(max-width: 767px) {
+                font-size: 20px;
+            }
+
+        }
+    }
+
+    .goal {
+        padding-top: 400px;
+        position: relative;
+        background: url(./../images/our-goal.png) no-repeat;
+       
+        @media(max-width: 767px) {
+            padding-top: 0px;
+        }
+
+        .g-text {
+            height: 500px;
+
+            @media(max-width: 767px) {
+                height: 400px;
+            }
+        }
+
+        h6 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 61px;
+            color: #371900;
+            padding-bottom: 30px;
+
+            
+            @media(max-width: 767px) {
+                font-size: 30px;
+            }
+        }
+
+        ul {
+            li {
+                list-style: disc;
+                font-weight: 500;
+                font-size: 32px;
+                color: #371900;
+
+                
+            @media(max-width: 767px) {
+                font-size: 20px;
+            }
+            }
+        }
+
+        .line1 {
+            position: absolute;
+            top: -90px;
+            left: 40%;
+
+            @media(max-width: 1199px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.our-service {
+    position: relative;
+    padding-top: 400px;
+
+    @media(max-width:767px){
+        padding-top: 0;
+    }
+
+    .service-text {
+        min-height: 1050px;
+
+        @media(max-width: 767px) {
+            min-height: 600px;
+        }
+
+        .description {
+            font-weight: 500;
+            font-size: 35px;
+            color: #371900;
+
+            @media(max-width: 767px) {
+                font-size: 20px;
+            }
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                padding-left: 50px;
+                font-weight: 500;
+                font-size: 35px;
+                color: #371900;
+                position: relative;
+
+                @media(max-width: 767px) {
+                    font-size: 20px;
+                }
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 10px;
+                    height: 30px;
+                    width: 30px;
+
+                    @media(max-width: 767px) {
+                       height: 20px;
+                       width: 20px;
+                       top: 6px;
+                       left: 15px;
+                    }
+                }
+
+                &.first {
+                    &::after {
+                        background: url(../images/li.png) center center/contain;
+                    }
+                }
+
+                &.second {
+                    &::after {
+                        background: url(../images/222.png) center center/contain;
+                    }
+                }
+
+                &.third {
+                    &::after {
+                        background: url(../images/223.png) center center/contain;
+                    }
+                }
+
+                &.fourth {
+                    &::after {
+                        background: url(../images/224.png) center center/contain;
+                    }
+                }
+            }
+        }
+    }
+
+    .line2 {
+        position: absolute;
+        top: -90px;
+        left: 35%;
+
+        @media(max-width: 1199px) {
+            display: none;
+        }
+    }
+}
+
+.our-mission {
+    position: relative;
+    background: url(./../images/our-goal.png) no-repeat;
+
+
+    .main-mission-text {
+        height: 600px;
+
+        @media(max-width: 767px) {
+            height: 360px;
+        }
+    }
+
+    .description {
+        font-weight: 500;
+        font-size: 35px;
+        color: #371900;
+
+        @media(max-width: 767px) {
+            font-size: 20px;
+        }
+    }
+
+
+
+    .line3 {
+        position: absolute;
+        top: -480px;
+        left: 35%;
+
+
+        @media(max-width: 1199px) {
+            display: none;
+        }
+    }
+}
+
+.soudi {
+    background: url(./../images/ab-bg.png) no-repeat center center/cover;
+
+    #mission-text {
+        min-height: 880px;
+        margin-bottom: 100px;
+
+        @media(max-width: 767px) {
+            min-height: 480px;
+            margin-bottom: 20px;
+        }
+    }
+}

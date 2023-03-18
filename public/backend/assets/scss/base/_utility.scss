@@ -1,0 +1,22 @@
+// width
+@media(min-width: 768px) {
+   .w-md-50 {
+      width: 50%;
+   }
+}
+
+.mb-35 {
+   margin-bottom: 35px;
+
+   @media(max-width: 768px) {
+      margin-bottom: 20px;
+   }
+}
+
+.mb-65 {
+   margin-bottom: 65px;
+
+   @media(max-width: 768px) {
+      margin-bottom: 35px;
+   }
+}

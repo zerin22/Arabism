@@ -1,0 +1,131 @@
+.custom-trip-texts {
+    .heading-card {
+        padding: 30px 40px;
+        background: #FDF3D0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 30px;
+        margin-bottom: 18px;
+
+        @media (max-width:767px) {
+            padding: 30px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 30px;
+            color: #371900;
+
+            @media (max-width:767px) {
+                font-size: 20px;
+            }
+
+            span {
+                color: #5EA139;
+            }
+        }
+    }
+
+    .body-card {
+        padding: 30px 40px;
+        margin: 30px 0;
+        background-color: #FDF3D0;
+        background-image: url(../images/bg2.png);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.16);
+        border-radius: 30px;
+
+        @media (max-width:767px) {
+            padding: 30px;
+        }
+    }
+
+    .head {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 60px;
+        color: #371900;
+
+        @media (max-width:767px) {
+            font-size: 25px;
+            line-height: 30px;
+        }
+
+    }
+
+    .paragrap {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        color: #371900;
+
+
+        @media (max-width:767px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+
+    .high {
+        .header {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 60px;
+            color: #5EA139;
+            list-style: disc;
+
+            @media (max-width:767px) {
+                font-size: 24px;
+                line-height: 30px;
+                padding-bottom: 15px;
+            }
+        }
+
+        .para {
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 30px;
+            color: #371900;
+            padding-left: 30px;
+
+            @media (max-width:767px) {
+                font-size: 18px;
+                line-height: 25px;
+            }
+        }
+    }
+
+    .c-item {
+        align-items: center;
+        padding: 10px 10px 20px;
+
+        @media (max-width:767px) {
+            padding: 0 0 30px;
+        }
+
+
+        img {
+            width: 64px;
+            height: 64px;
+
+            @media (max-width:767px) {
+                width: 50px;
+                height: 50px;
+            }
+
+        }
+
+        p {
+            padding-left: 30px;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 50px;
+            color: #371900;
+
+            @media (max-width:767px) {
+                font-size: 20px;
+                line-height: 26px;
+            }
+
+
+        }
+    }
+}

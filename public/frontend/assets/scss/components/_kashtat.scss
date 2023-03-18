@@ -1,0 +1,58 @@
+.kashtat {
+
+    .heading {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .left {
+        padding-bottom: 100px;
+
+        @media (max-width:767px) {
+            padding-bottom: 20px;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            padding-inline: 40px;
+            position: relative;
+            padding-bottom: 40px;
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: relative;
+                }
+            }
+
+            .swiper-button-next::after {
+                font-size: 25px;
+                font-weight: 700;
+                color: #371900;
+            }
+
+            .swiper-button-prev::after {
+                font-size: 25px;
+                font-weight: 700;
+                color: #371900;
+            }
+
+            .swiper-pagination-bullet {
+                background: #371900;
+
+                &.swiper-pagination-bullet-active {
+                    background: #371900;
+                    width: 35px;
+                    border-radius: 100px;
+                }
+            }
+        }
+    }
+}

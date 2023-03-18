@@ -1,0 +1,63 @@
+.confirmation-modal {
+    .modal {
+
+        .modal-dialog {
+            max-width: 700px;
+
+            .modal-content {
+                background: #FBE7B7;
+                box-shadow: 0px 0px 20px #00000040;
+                border-radius: 30px;
+                padding: 40px;
+
+                h4 {
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 44px;
+                    text-align: center;
+                    color: #371900;
+
+                    span {
+                        color: #9D0B0F;
+                    }
+                }
+
+                .cancel-buton {
+                    background: #01371600;
+                    min-width: 140px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                    border-radius: 20px;
+                    padding: 5px 10px;
+                    color: #371901;
+                    font-weight: 500;
+                    font-size: 20px;
+                    border: 2px solid #371901;
+                    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+                    border-radius: 20px;
+                    margin: 0 5px;
+                }
+
+                .create-buton {
+                    background: #371901;
+                    min-width: 140px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                    border-radius: 20px;
+                    margin: 0 5px;
+                    padding: 5px 10px;
+                    color: #fff;
+                    font-weight: 500;
+                    font-size: 20px;
+                }
+
+                .custom-input {
+                    width: 100%;
+                    padding: 18px;
+                    margin-block: 8px;
+                    background: #FDF3D0;
+                    border: 1.5px solid rgba(55, 25, 0, 0.3);
+                    border-radius: 6px;
+                }
+            }
+        }
+    }
+}
