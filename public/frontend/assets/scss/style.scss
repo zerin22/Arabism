@@ -1,0 +1,37 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+/*===// end of layouts css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+@import 'components/slider';
+@import 'components/newsletter';
+@import 'components/get-in-touch';
+@import 'components/login-modal';
+@import 'components/sign-in';
+@import 'components/error-loading';
+@import 'components/payment';
+@import 'components/item-card';
+@import 'components/notification-pop-ups';
+@import 'components/loading';
+@import 'components/kashtat';
+@import 'components/offer-text';
+@import 'components/custom-trip-texts';
+@import 'components/categoryCards';
+/*===// end of components css === */
+@import 'pages/Home';

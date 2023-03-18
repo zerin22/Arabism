@@ -1,0 +1,181 @@
+.purchase-modal {
+    .modal-dialog {
+        max-width: 1080px;
+
+        .modal-content {
+            background: #FBE7B7;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+            padding: 25px;
+
+            @media(max-width: 767px) {
+
+                padding: 0;
+            }
+
+            .modal-body {
+
+                .checkout-cards-wrapper {
+                    padding: 30px 0;
+
+                    .order-card {
+                        background: #FFF2D1;
+                        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 20px;
+                        padding: 30px;
+                        margin-bottom: 16px;
+
+                        @media(max-width: 767px) {
+                            padding: 20px;
+                        }
+
+                        .item-details {
+                            display: flex;
+                            align-items: center;
+
+                            .text {
+                                padding-left: 12px;
+
+                                .name {
+                                    font-weight: 700;
+                                    font-size: 25px;
+                                    line-height: 30px;
+                                    padding-bottom: 12px;
+                                    color: #371900;
+
+                                    @media(max-width: 767px) {
+                                        padding-bottom: 6px;
+                                        font-size: 20px;
+                                    }
+                                }
+
+                                .details {
+                                    font-weight: 400;
+                                    font-size: 20px;
+                                    line-height: 160%;
+                                    padding-bottom: 12px;
+                                    color: rgba(55, 25, 0, 0.8);
+
+                                    @media(max-width: 767px) {
+                                        padding-bottom: 6px;
+                                        line-height: 100%;
+                                        font-size: 18px;
+                                    }
+                                }
+
+                                .quantity {
+                                    font-weight: 500;
+                                    font-size: 25px;
+                                    line-height: 30px;
+                                    color: #371900;
+
+                                    @media(max-width: 767px) {
+                                        font-size: 20px;
+                                        line-height: 25px;
+
+                                    }
+
+                                }
+
+                                .total {
+                                    font-weight: 700;
+                                    font-size: 25px;
+                                    line-height: 30px;
+                                    color: #371900;
+
+                                    @media(max-width: 767px) {
+                                        font-size: 20px;
+                                        line-height: 25px;
+                                    }
+                                }
+
+                                .counter {
+                                    background: #FFFFFF;
+                                    border: 1px solid #FBE7B7;
+                                    border-radius: 10px;
+
+
+                                    .number {
+                                        display: inline-block;
+
+                                        input {
+                                            width: 34px;
+                                            border: none;
+                                            font-size: 20px;
+                                            color: #371900;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+
+                                            @media(max-width: 767px) {
+                                                font-size: 15px;
+                                                width: 20px;
+                                            }
+
+                                        }
+                                    }
+
+                                    button {
+                                        font-size: 25px;
+                                        color: #371900;
+                                        border: 1px solid #371900;
+
+                                        @media(max-width: 767px) {
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+
+                    .sub-total {
+                        font-weight: 700;
+                        font-size: 34px;
+                        line-height: 41px;
+                        color: #371900;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.notification-modal {
+    .modal-dialog {
+        max-width: 800px;
+
+        .modal-content {
+            background: #FBE7B7;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+
+            .notyfication-body {
+                padding: 80px 0;
+
+                p {
+                    padding-top: 40px;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 37px;
+                    color: #371900;
+
+                    .green {
+                        color: #5EA139;
+                    }
+
+                    .red {
+                        color: #A21F1B;
+                    }
+
+                    .yellow {
+                        color: #F9A51A;
+                    }
+                }
+            }
+
+        }
+    }
+}

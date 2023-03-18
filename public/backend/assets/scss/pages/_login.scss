@@ -1,0 +1,33 @@
+.login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/login/full-fullbg.png) no-repeat bottom;
+
+    .login-form {
+        width: 100%;
+        max-width: 670px;
+        padding: 10px;
+        text-align: center;
+
+        .brand-logo {
+            width: 100%;
+            max-width: 470px;
+            padding-bottom: 45px;
+        }
+
+        .input-custom {
+            padding: 10px 20px;
+            background: #FDF3D0;
+            border: 1px solid #DF9C5F;
+            border-radius: 20px;
+            height: 64px;
+            border-right: none;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+    }
+}
